@@ -5,9 +5,9 @@ This is the basic implementation of the IPSec tunnel using Linux TUN/TAP interfa
 ## Requirements to run this Firewall
 * One Interface with Static IP configured
 * interface should be active
-* TUN interface
+* TUN interfaces
 * Python 3.8.2 (tested)
-* Ubuntu 20.04 box (tested)
+* 2x Ubuntu 20.04 VM (tested)
 
 # Basic Setup
 For this tunnel program, I added two NICs to my Ubuntu box. One NIC is TUN interface that works as a virtual NIC and other one use to send and recv the actual tunnel traffic. The same program we run on both VMs. To execute the tunnel I added two Ubuntu 20.04 VMs into VMware workstation. They has following configs.

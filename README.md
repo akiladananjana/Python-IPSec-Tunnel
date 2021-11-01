@@ -2,7 +2,7 @@
 
 This is the basic implementation of the IPSec tunnel using Linux TUN/TAP interfaces and python RAW Sockets. This also includes the encryption part using AES algorithm.
 
-## Requirements to run this Firewall
+## Requirements to run this Tunnel
 * One Interface with Static IP configured
 * interface should be active
 * TUN interfaces
